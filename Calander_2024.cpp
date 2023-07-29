@@ -221,7 +221,7 @@ int datefind(int month, int date)
 main()
 {
     printf("\tCALANDER 2024\n");
-	printf("Press Enter to continue");
+	printf("Press Enter to continue\nPress 'e' to Exit.");
 	while(getche() != 'e')
 	{
 		int choice;
