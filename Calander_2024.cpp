@@ -285,7 +285,7 @@ main()
 		int month, date, day;
 		printf("Enter month: ");
 		scanf("%d", &month);
-		printf("\nEnter date: ");
+		printf("Enter date: ");
 		scanf("%d", &date);
 		if(month > 12 || month < 1){
 			printf("Month does not exist");
@@ -300,28 +300,28 @@ main()
 		switch(day)
 		{
 			case 0:
-				printf("The day on %s %d will be SUNDAY", moName[month], date);
+				printf("\nThe day on %s %d will be SUNDAY", moName[month], date);
 				break;
 			case 1:
-				printf("The day on %s %d will be MONDAY", moName[month], date);
+				printf("\nThe day on %s %d will be MONDAY", moName[month], date);
 				break;
 			case 2:
-				printf("The day on %s %d will be TUESDAY", moName[month], date);
+				printf("\nThe day on %s %d will be TUESDAY", moName[month], date);
 				break;
 			case 3:
-				printf("The day on %s %d will be WEDNESDAY", moName[month], date);
+				printf("\nThe day on %s %d will be WEDNESDAY", moName[month], date);
 				break;
 			case 4:
-				printf("The day on %s %d will be THURSDAY", moName[month], date);
+				printf("\nThe day on %s %d will be THURSDAY", moName[month], date);
 				break;
 			case 5:
-				printf("The day on %s %d will be FRIDAY", moName[month], date);
+				printf("\nThe day on %s %d will be FRIDAY", moName[month], date);
 				break;
 			case 6:
-				printf("The day on %s %d will be SATURDAY", moName[month], date);
+				printf("\nThe day on %s %d will be SATURDAY", moName[month], date);
 				break;
 			default:
-				printf("Not found!");
+				printf("\nNot found!");
 		}
 	}//end of else if
 	else
