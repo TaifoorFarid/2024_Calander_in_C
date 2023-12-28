@@ -180,34 +180,34 @@ int datefind(int month, int date)
 			day = date % 7;
 			break;
 		case 2:
-			day = (date - 4) % 7;
+			day = (date + 3) % 7;
 			break;
 		case 3:
-			day = (date - 3) % 7;
+			day = (date + 3) % 7;
 			break;
 		case 4:
 			day = date % 7;
 			break;
 		case 5:
-			day = (date - 5) % 7;
+			day = (date + 2) % 7;
 			break;
 		case 6:
-			day = (date - 2) % 7;
+			day = (date + 5) % 7;
 			break;
 		case 7:
 			day = date % 7;
 			break;
 		case 8:
-			day = (date - 4) % 7;
+			day = (date + 3) % 7;
 			break;
 		case 9:
 			day = (date - 1) % 7;
 			break;
 		case 10:
-			day = (date - 6) % 7;
+			day = (date + 1) % 7;
 			break;
 		case 11:
-			day = (date - 3) % 7;
+			day = (date + 4) % 7;
 			break;
 		case 12:
 			day = (date - 1) % 7;
