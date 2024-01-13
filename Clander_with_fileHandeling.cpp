@@ -219,8 +219,8 @@ int datefind(int month, int date)
 }
 
 void storeInFile()
-{
-	FILE *ptr = fopen("C:\\Users\\Dell\\OneDrive\\Desktop\\calander.txt", "w");
+{       // I am using writting mode you can also use append mode.
+	FILE *ptr = fopen("FILE_LOCATION_HERE", "w");
 	
 	if (ptr == NULL)
 	{
